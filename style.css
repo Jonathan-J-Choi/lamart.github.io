@@ -1,0 +1,31 @@
+/* main */
+html,body {
+  height: 100%;
+  background-color: honeydew;
+}
+#page-content {
+  flex: 1 0 auto;
+}
+/* footer */
+#sticky-footer {
+  flex-shrink: 0;
+  margin-top: 5vh;
+}
+.marketing {
+  background-color: white;
+}
+/* featurette */
+.feat{
+  height: 500px;
+  width: 500px;
+}
+.feath3{
+  color: #6c757d !important;
+}
+/* navbar */
+.navbtn {
+  font-size: 1.5rem;
+}
+.navbtm {
+  font-size: 1rem;
+}
