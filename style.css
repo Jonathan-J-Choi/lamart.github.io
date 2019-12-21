@@ -27,6 +27,20 @@ html,body {
   color: #6c757d !important;
 }
 
+/* about us */
+.about{
+  background-color: white;
+  text-align: center;
+}
+
+/* contact us */
+.contact {
+  background-color: white;
+}
+.center {
+  text-align: center;
+}
+
 /* employee */
 .employee {
   text-align: center;
