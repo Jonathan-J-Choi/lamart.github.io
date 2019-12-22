@@ -36,42 +36,67 @@
   </nav>
   <br><br>
   <!-- contact us form -->
-  <div class="container contact">
+  <div class="container contact rounded">
     <br>
     <h1 class="center">We would love to hear your opinion!</h1>
     <form>
       <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
+        <label for="formGroupExampleInput">First Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Last Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Please type your e-mail here</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">Example select</label>
+        <label for="exampleFormControlSelect1">What can we help you with?</label>
         <select class="form-control" id="exampleFormControlSelect1">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
+          <option>Customer Service</option>
+          <option>Product Request</option>
+          <option>Manufacturer or Vendor Request</option>
+          <option>Weekly Sale Items</option>
+          <option>Employment Opportunities</option>
+          <option>Other</option>
         </select>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect2">Example multiple select</label>
-        <select multiple class="form-control" id="exampleFormControlSelect2">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
+        <label for="example-from-check">How would you rate your experience today?</label>
+        <br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">1 (worst)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+          <label class="form-check-label" for="inlineRadio4">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+          <label class="form-check-label" for="inlineRadio5">5 (best)</label>
+        </div>
+
       </div>
       <div class="form-group">
-        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <label for="exampleFormControlTextarea1">Questions? Comments? Concerns?</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
+      <button type="submit" class="btn btn-success">Submit</button>
       <br><br>
     </form>
   </div>
-  <br><br>
+
 
   <!--footer -->
   <footer id="sticky-footer" class="py-4 bg-light text-white-50">
